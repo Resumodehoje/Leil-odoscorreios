@@ -1,0 +1,39 @@
+.ui{
+  height: 88px;
+}
+
+.km{
+  text-align: center;
+  font-style: italic
+}
+
+.gab{
+  height: 380px;
+}
+
+.text{
+  text-align: center;
+}
+
+.eu{
+  text-align: center;
+  
+}
+
+.gab{
+  height: 550px;
+}
+
+
+.produto-container{
+  display:flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px); {
+  .produto-container{
+    width: 100%;
+    flex-direction: column
+  }
+}
